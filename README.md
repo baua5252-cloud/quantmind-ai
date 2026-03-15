@@ -1,4 +1,4 @@
-# Omni Mind AI
+# quant Mind AI
 
 A powerful AI assistant that runs in the browser — answer questions, analyze files, search the web, write code, and more.
 
