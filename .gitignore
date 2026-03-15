@@ -44,4 +44,4 @@ Thumbs.db
 anaconda/
 
 # Root standalone files
-main.py
+/main.py
