@@ -1,7 +1,34 @@
-fastapi
-uvicorn
-python-dotenv
-langchain
-langchain-openai
-openai
-pydantic    
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.1.1
+
+# AI / LLM
+openai==1.51.0
+
+# Database
+sqlalchemy==2.0.35
+asyncpg==0.29.0
+aiosqlite==0.20.0
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+google-auth==2.29.0
+
+# File Processing
+python-multipart==0.0.12
+
+# Web Search
+httpx==0.27.2
+beautifulsoup4==4.12.3
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Streaming
+sse-starlette==2.1.3

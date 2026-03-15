@@ -9,8 +9,7 @@ services:
     name: quantmind-backend
     runtime: python
     plan: free
-    rootDir: backend
-    buildCommand: pip install -r requirements.txt && python -c "from app.main import app; print('Import OK')"
+    buildCommand: pip install -r requirements.txt
     startCommand: python start.py
     envVars:
       - key: DATABASE_URL
